@@ -7,7 +7,10 @@ var mySwiper = new Swiper('.swiper-container', {
     spaceBetween: 80,
   
     // If we need pagination
-  
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',

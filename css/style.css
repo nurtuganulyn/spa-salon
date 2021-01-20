@@ -407,6 +407,12 @@ header {
 .slider .swiper-container {
     overflow: visible;
     height: auto;
+    padding-bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
 }
 
 .swiper-btn {
@@ -458,4 +464,9 @@ header {
     bottom: 0;
     margin-right: 16px;
     margin-bottom: 36px;
+    z-index: 99;
+}
+
+.swiper-pagination {
+    display: none;
 }

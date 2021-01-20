@@ -79,12 +79,12 @@
   .callback-form__name, .callback-form__tel {
     width: 100%;
   }
-
   .slider .swiper-container {
     overflow: visible;
     height: auto;
     width: auto;
     padding: 0 15px;
+    padding-bottom: 50px;
 }
 
   .swiper-btn {
@@ -97,6 +97,10 @@
     width: 100%;
     min-height: 280px;
     height: 320px;
+  }
+
+  .swiper-pagination {
+    display: block;
   }
 
   .request__info {
