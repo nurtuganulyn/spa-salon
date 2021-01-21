@@ -50,11 +50,7 @@
   }
 
   .content {
-    flex-direction: column-reverse;
     align-items: center;
-  }
-
-  .content__info {
     padding-top: 20px;
   }
 
@@ -69,6 +65,25 @@
   .callback-form__button {
     padding: 20px 25px;
   }
+
+  .content__date {
+    display: none;
+  }
+
+  .dublicate__date {
+    display: block;
+    padding-top: 20px;
+  }
+
+  .dublicate__timer {
+    margin-bottom: 10px;
+  }
+
+  .content__button {
+    margin-top: 16px;
+  }
+
+  
 }
 
 @media screen and (max-width: 700px) {
@@ -187,6 +202,7 @@
   .content {
     padding-right: 0;
     padding-left: 0;
+    padding-bottom: 125px;
   }
 
   .content__title {
@@ -196,6 +212,10 @@
 
   .content__desc {
     font-size: 14px;
+  }
+
+  .dublicate__sale {
+    font-size: 16px;
   }
 
   .description__title {

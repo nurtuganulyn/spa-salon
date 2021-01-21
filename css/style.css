@@ -20,13 +20,14 @@ ul {
     background-image: url("../images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     min-height: 100vh;
 
 }
 
 .hero-wrapper {
     min-height: 100vh;
-    background-color: rgba(86, 86, 86, 0.4);
+    background-color: rgba(86, 86, 86, 0.5);
 }
 
 .logo {
@@ -93,7 +94,7 @@ header {
 }
 
 .location__icon {
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .location__title {
@@ -468,5 +469,9 @@ header {
 }
 
 .swiper-pagination {
+    display: none;
+}
+
+.dublicate__date {
     display: none;
 }
